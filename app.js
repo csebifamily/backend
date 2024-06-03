@@ -44,7 +44,7 @@ app.post('/users', (req, res) => {
 
   const {password} = req.body;
 
-  const uri = "mongodb+srv://csebifamily:TewhWusR3TcXD5lG@cluster0.fe6n6dw.mongodb.net/?retryWrites=true&w=majority";    
+  const uri = "mongodb+srv://csebifamily:jani1129@cluster0.fe6n6dw.mongodb.net/?retryWrites=true&w=majority";    
   // Create a MongoClient with a MongoClientOptions object to set the Stable API version
   const client = new MongoClient(uri, {
     serverApi: {
@@ -90,7 +90,7 @@ app.delete('/users', (req, res) => {
 
   const id = new ObjectId(req.body.id);
   
-  const uri = "mongodb+srv://csebifamily:TewhWusR3TcXD5lG@cluster0.fe6n6dw.mongodb.net/?retryWrites=true&w=majority";    
+  const uri = "mongodb+srv://csebifamily:jani1129@cluster0.fe6n6dw.mongodb.net/?retryWrites=true&w=majority";    
   // Create a MongoClient with a MongoClientOptions object to set the Stable API version
   const client = new MongoClient(uri, {
     serverApi: {

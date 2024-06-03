@@ -12,7 +12,7 @@ app.use(cors());
 app.post('/login', (req, res) => {
     const {email, password} = req.body;
 
-    const uri = "mongodb+srv://csebifamily:TewhWusR3TcXD5lG@cluster0.fe6n6dw.mongodb.net/?retryWrites=true&w=majority";    
+    const uri = "mongodb+srv://csebifamily:jani1129@cluster0.fe6n6dw.mongodb.net/?retryWrites=true&w=majority";    
     // Create a MongoClient with a MongoClientOptions object to set the Stable API version
     const client = new MongoClient(uri, {
       serverApi: {
